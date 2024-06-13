@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAE8EB2B2C1A898D00E30653 /* AldoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */; };
+		EAE8EB2D2C1A898D00E30653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2C2C1A898D00E30653 /* ContentView.swift */; };
+		EAE8EB2F2C1A898D00E30653 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2E2C1A898D00E30653 /* Item.swift */; };
+		EAE8EB312C1A899000E30653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8EB302C1A899000E30653 /* Assets.xcassets */; };
+		EAE8EB342C1A899000E30653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8EB332C1A899000E30653 /* Preview Assets.xcassets */; };
+		EAE8EB3E2C1A899100E30653 /* AldoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB3D2C1A899100E30653 /* AldoTests.swift */; };
+		EAE8EB482C1A899100E30653 /* AldoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB472C1A899100E30653 /* AldoUITests.swift */; };
+		EAE8EB4A2C1A899100E30653 /* AldoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB492C1A899100E30653 /* AldoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE8EB3A2C1A899100E30653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE8EB1F2C1A898D00E30653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE8EB262C1A898D00E30653;
+			remoteInfo = Aldo;
+		};
+		EAE8EB442C1A899100E30653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE8EB1F2C1A898D00E30653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE8EB262C1A898D00E30653;
+			remoteInfo = Aldo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAE8EB272C1A898D00E30653 /* Aldo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aldo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoApp.swift; sourceTree = "<group>"; };
+		EAE8EB2C2C1A898D00E30653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAE8EB2E2C1A898D00E30653 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EAE8EB302C1A899000E30653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE8EB332C1A899000E30653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAE8EB392C1A899100E30653 /* AldoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AldoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB3D2C1A899100E30653 /* AldoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoTests.swift; sourceTree = "<group>"; };
+		EAE8EB432C1A899100E30653 /* AldoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AldoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB472C1A899100E30653 /* AldoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoUITests.swift; sourceTree = "<group>"; };
+		EAE8EB492C1A899100E30653 /* AldoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE8EB242C1A898D00E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB362C1A899100E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB402C1A899100E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAE8EB1E2C1A898D00E30653 = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB292C1A898D00E30653 /* Aldo */,
+				EAE8EB3C2C1A899100E30653 /* AldoTests */,
+				EAE8EB462C1A899100E30653 /* AldoUITests */,
+				EAE8EB282C1A898D00E30653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE8EB282C1A898D00E30653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB272C1A898D00E30653 /* Aldo.app */,
+				EAE8EB392C1A899100E30653 /* AldoTests.xctest */,
+				EAE8EB432C1A899100E30653 /* AldoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE8EB292C1A898D00E30653 /* Aldo */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */,
+				EAE8EB2C2C1A898D00E30653 /* ContentView.swift */,
+				EAE8EB2E2C1A898D00E30653 /* Item.swift */,
+				EAE8EB302C1A899000E30653 /* Assets.xcassets */,
+				EAE8EB322C1A899000E30653 /* Preview Content */,
+			);
+			path = Aldo;
+			sourceTree = "<group>";
+		};
+		EAE8EB322C1A899000E30653 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB332C1A899000E30653 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAE8EB3C2C1A899100E30653 /* AldoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB3D2C1A899100E30653 /* AldoTests.swift */,
+			);
+			path = AldoTests;
+			sourceTree = "<group>";
+		};
+		EAE8EB462C1A899100E30653 /* AldoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB472C1A899100E30653 /* AldoUITests.swift */,
+				EAE8EB492C1A899100E30653 /* AldoUITestsLaunchTests.swift */,
+			);
+			path = AldoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE8EB262C1A898D00E30653 /* Aldo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB4D2C1A899100E30653 /* Build configuration list for PBXNativeTarget "Aldo" */;
+			buildPhases = (
+				EAE8EB232C1A898D00E30653 /* Sources */,
+				EAE8EB242C1A898D00E30653 /* Frameworks */,
+				EAE8EB252C1A898D00E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aldo;
+			productName = Aldo;
+			productReference = EAE8EB272C1A898D00E30653 /* Aldo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE8EB382C1A899100E30653 /* AldoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB502C1A899100E30653 /* Build configuration list for PBXNativeTarget "AldoTests" */;
+			buildPhases = (
+				EAE8EB352C1A899100E30653 /* Sources */,
+				EAE8EB362C1A899100E30653 /* Frameworks */,
+				EAE8EB372C1A899100E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE8EB3B2C1A899100E30653 /* PBXTargetDependency */,
+			);
+			name = AldoTests;
+			productName = AldoTests;
+			productReference = EAE8EB392C1A899100E30653 /* AldoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE8EB422C1A899100E30653 /* AldoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB532C1A899100E30653 /* Build configuration list for PBXNativeTarget "AldoUITests" */;
+			buildPhases = (
+				EAE8EB3F2C1A899100E30653 /* Sources */,
+				EAE8EB402C1A899100E30653 /* Frameworks */,
+				EAE8EB412C1A899100E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE8EB452C1A899100E30653 /* PBXTargetDependency */,
+			);
+			name = AldoUITests;
+			productName = AldoUITests;
+			productReference = EAE8EB432C1A899100E30653 /* AldoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE8EB1F2C1A898D00E30653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EAE8EB262C1A898D00E30653 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EAE8EB382C1A899100E30653 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAE8EB262C1A898D00E30653;
+					};
+					EAE8EB422C1A899100E30653 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAE8EB262C1A898D00E30653;
+					};
+				};
+			};
+			buildConfigurationList = EAE8EB222C1A898D00E30653 /* Build configuration list for PBXProject "Aldo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE8EB1E2C1A898D00E30653;
+			productRefGroup = EAE8EB282C1A898D00E30653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE8EB262C1A898D00E30653 /* Aldo */,
+				EAE8EB382C1A899100E30653 /* AldoTests */,
+				EAE8EB422C1A899100E30653 /* AldoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE8EB252C1A898D00E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB342C1A899000E30653 /* Preview Assets.xcassets in Resources */,
+				EAE8EB312C1A899000E30653 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB372C1A899100E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB412C1A899100E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE8EB232C1A898D00E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB2D2C1A898D00E30653 /* ContentView.swift in Sources */,
+				EAE8EB2F2C1A898D00E30653 /* Item.swift in Sources */,
+				EAE8EB2B2C1A898D00E30653 /* AldoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB352C1A899100E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB3E2C1A899100E30653 /* AldoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB3F2C1A899100E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB4A2C1A899100E30653 /* AldoUITestsLaunchTests.swift in Sources */,
+				EAE8EB482C1A899100E30653 /* AldoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE8EB3B2C1A899100E30653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE8EB262C1A898D00E30653 /* Aldo */;
+			targetProxy = EAE8EB3A2C1A899100E30653 /* PBXContainerItemProxy */;
+		};
+		EAE8EB452C1A899100E30653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE8EB262C1A898D00E30653 /* Aldo */;
+			targetProxy = EAE8EB442C1A899100E30653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAE8EB4B2C1A899100E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE8EB4C2C1A899100E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE8EB4E2C1A899100E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldo/Preview Content\"";
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.Aldo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAE8EB4F2C1A899100E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldo/Preview Content\"";
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.Aldo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAE8EB512C1A899100E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.AldoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldo";
+			};
+			name = Debug;
+		};
+		EAE8EB522C1A899100E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.AldoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldo";
+			};
+			name = Release;
+		};
+		EAE8EB542C1A899100E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.AldoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aldo;
+			};
+			name = Debug;
+		};
+		EAE8EB552C1A899100E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.AldoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aldo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE8EB222C1A898D00E30653 /* Build configuration list for PBXProject "Aldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB4B2C1A899100E30653 /* Debug */,
+				EAE8EB4C2C1A899100E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE8EB4D2C1A899100E30653 /* Build configuration list for PBXNativeTarget "Aldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB4E2C1A899100E30653 /* Debug */,
+				EAE8EB4F2C1A899100E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE8EB502C1A899100E30653 /* Build configuration list for PBXNativeTarget "AldoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB512C1A899100E30653 /* Debug */,
+				EAE8EB522C1A899100E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE8EB532C1A899100E30653 /* Build configuration list for PBXNativeTarget "AldoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB542C1A899100E30653 /* Debug */,
+				EAE8EB552C1A899100E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE8EB1F2C1A898D00E30653 /* Project object */;
+}
