@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Application Info -->
+    <key>CFBundleIdentifier</key>
+    <string>Aldo.Aldo</string> <!-- Your app's bundle identifier -->
+    <key>CFBundleName</key>
+    <string>Aldo</string>
+    <key>CFBundleDisplayName</key>
+    <string>Aldo</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string> <!-- Build version -->
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string> <!-- Release version -->
+    <key>CFBundleExecutable</key>
+    <string>Aldo</string> <!-- This should match your app's executable name, usually the target name without an extension -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string> <!-- Your launch storyboard name -->
+    
+    <!-- HealthKit Permissions -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>This app requires access to read your HealthKit data for analyzing workouts.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>This app requires access to update your HealthKit data for tracking workouts.</string>
+    
+    <!-- Other Required Permissions (if any) -->
+    <!-- Add other keys as needed for your app's functionality -->
+</dict>
+</plist>

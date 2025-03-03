@@ -6,27 +6,22 @@
 //
 
 import SwiftUI
-import SwiftData
+import Firebase
 
 @main
 struct AldoApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    @StateObject private var workoutManager = iOSWorkoutManager()
+    @StateObject private var authManager = AuthenticationManager()
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    init() {
+        FirebaseApp.configure() // Initialize Firebase
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(workoutManager)
+                .environmentObject(authManager)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

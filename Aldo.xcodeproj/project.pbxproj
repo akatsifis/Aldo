@@ -7,6 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB92DB62D46C35C00AE6B05 /* CourseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DB52D46C34F00AE6B05 /* CourseSearchView.swift */; };
+		9CB92DB82D46C56000AE6B05 /* GolfCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DB72D46C54E00AE6B05 /* GolfCourse.swift */; };
+		9CB92DBC2D47365C00AE6B05 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DBB2D47365B00AE6B05 /* League.swift */; };
+		9CB92DC22D47367E00AE6B05 /* SearchLeaguesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DC12D47367E00AE6B05 /* SearchLeaguesView.swift */; };
+		9CB92DC42D47368B00AE6B05 /* LeagueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DC32D47368B00AE6B05 /* LeagueService.swift */; };
+		9CB92DC62D47369D00AE6B05 /* ScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DC52D47369D00AE6B05 /* ScoreService.swift */; };
+		9CB92DC82D4736AE00AE6B05 /* LeagueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DC72D4736AE00AE6B05 /* LeagueDetailView.swift */; };
+		9CB92DCA2D4739CD00AE6B05 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DC92D4739CD00AE6B05 /* Score.swift */; };
+		9CB92DCC2D473F8400AE6B05 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DCB2D473F8400AE6B05 /* UserService.swift */; };
+		9CB92DCE2D473F9500AE6B05 /* CreateLeagueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB92DCD2D473F9500AE6B05 /* CreateLeagueView.swift */; };
+		EA0D9B982C1AA9500045669C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9B972C1AA9500045669C /* FirebaseAnalytics */; };
+		EA0D9B9A2C1AA9500045669C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9B992C1AA9500045669C /* FirebaseAnalyticsOnDeviceConversion */; };
+		EA0D9B9C2C1AA9500045669C /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9B9B2C1AA9500045669C /* FirebaseAnalyticsSwift */; };
+		EA0D9B9E2C1AA9500045669C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9B9D2C1AA9500045669C /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		EA0D9BA02C1AA9500045669C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9B9F2C1AA9500045669C /* FirebaseAppCheck */; };
+		EA0D9BA32C1AAACD0045669C /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BA22C1AAACD0045669C /* FirebaseAppDistribution-Beta */; };
+		EA0D9BA52C1AAACD0045669C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BA42C1AAACD0045669C /* FirebaseAuth */; };
+		EA0D9BA72C1AAACD0045669C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BA62C1AAACD0045669C /* FirebaseAuthCombine-Community */; };
+		EA0D9BA92C1AAACD0045669C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BA82C1AAACD0045669C /* FirebaseCrashlytics */; };
+		EA0D9BAB2C1AAACD0045669C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BAA2C1AAACD0045669C /* FirebaseDatabase */; };
+		EA0D9BAD2C1AAACD0045669C /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BAC2C1AAACD0045669C /* FirebaseDatabaseSwift */; };
+		EA0D9BAF2C1AAACD0045669C /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BAE2C1AAACD0045669C /* FirebaseDynamicLinks */; };
+		EA0D9BB12C1AAACD0045669C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BB02C1AAACD0045669C /* FirebaseFirestore */; };
+		EA0D9BB32C1AAACD0045669C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BB22C1AAACD0045669C /* FirebaseFirestoreCombine-Community */; };
+		EA0D9BB52C1AAACD0045669C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BB42C1AAACD0045669C /* FirebaseFirestoreSwift */; };
+		EA0D9BB72C1AAACD0045669C /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BB62C1AAACD0045669C /* FirebaseFunctions */; };
+		EA0D9BB92C1AAACD0045669C /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BB82C1AAACD0045669C /* FirebaseFunctionsCombine-Community */; };
+		EA0D9BBB2C1AAACD0045669C /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BBA2C1AAACD0045669C /* FirebaseInAppMessaging-Beta */; };
+		EA0D9BBD2C1AAACD0045669C /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BBC2C1AAACD0045669C /* FirebaseInAppMessagingSwift-Beta */; };
+		EA0D9BBF2C1AAACD0045669C /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BBE2C1AAACD0045669C /* FirebaseInstallations */; };
+		EA0D9BC12C1AAACD0045669C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BC02C1AAACD0045669C /* FirebaseMessaging */; };
+		EA0D9BC32C1AAACD0045669C /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BC22C1AAACD0045669C /* FirebaseMLModelDownloader */; };
+		EA0D9BC52C1AAACD0045669C /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BC42C1AAACD0045669C /* FirebasePerformance */; };
+		EA0D9BC72C1AAACD0045669C /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BC62C1AAACD0045669C /* FirebaseRemoteConfig */; };
+		EA0D9BC92C1AAACD0045669C /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BC82C1AAACD0045669C /* FirebaseRemoteConfigSwift */; };
+		EA0D9BCB2C1AAACD0045669C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BCA2C1AAACD0045669C /* FirebaseStorage */; };
+		EA0D9BCD2C1AAACD0045669C /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BCC2C1AAACD0045669C /* FirebaseStorageCombine-Community */; };
+		EA0D9BCF2C1AAACD0045669C /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BCE2C1AAACD0045669C /* FirebaseVertexAI-Preview */; };
+		EA0D9BD22C1AADFF0045669C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BD12C1AADFF0045669C /* SDWebImageSwiftUI */; };
+		EA0D9BD52C23C8930045669C /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BD42C23C8930045669C /* FacebookAEM */; };
+		EA0D9BD72C23C8930045669C /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BD62C23C8930045669C /* FacebookBasics */; };
+		EA0D9BD92C23C8930045669C /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BD82C23C8930045669C /* FacebookCore */; };
+		EA0D9BDD2C23C8930045669C /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = EA0D9BDC2C23C8930045669C /* FacebookLogin */; };
+		EA0D9BE22C23CFCF0045669C /* ActivityAndTransportPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9BE12C23CFCF0045669C /* ActivityAndTransportPromptView.swift */; };
+		EA0D9BE42C23D0470045669C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9BE32C23D0470045669C /* AppDelegate.swift */; };
+		EA0D9BF22C23D37C0045669C /* WatchWorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9BF02C23D37C0045669C /* WatchWorkoutManager.swift */; };
+		EA0D9BF42C23D3B30045669C /* iOSWorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9BF32C23D3B30045669C /* iOSWorkoutManager.swift */; };
+		EA0D9BF62C23D59C0045669C /* Aldo_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9BEB2C23D2A70045669C /* Aldo_WatchApp.swift */; };
+		EA0D9C052C27D4E70045669C /* HealthKitIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9C042C27D4E70045669C /* HealthKitIntegration.swift */; };
+		EA0D9C062C27D4E70045669C /* HealthKitIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D9C042C27D4E70045669C /* HealthKitIntegration.swift */; };
+		EA4B94A82C27E93A00899DF1 /* IndividualHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B94A72C27E93900899DF1 /* IndividualHoleView.swift */; };
+		EA4B94AA2C28716300899DF1 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B94A92C28716300899DF1 /* WorkoutView.swift */; };
+		EA8878B92C2A202E0033C943 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8878B82C2A202E0033C943 /* Friend.swift */; };
+		EA8878BD2C2A23630033C943 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8878BC2C2A23630033C943 /* AppUser.swift */; };
+		EA8878BF2C2B3C8F0033C943 /* WorkoutStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8878BE2C2B3C8F0033C943 /* WorkoutStats.swift */; };
+		EAE40D5B2C29AC6800B6DD64 /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE40D5A2C29AC6800B6DD64 /* FriendsListView.swift */; };
 		EAE8EB2B2C1A898D00E30653 /* AldoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */; };
 		EAE8EB2D2C1A898D00E30653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2C2C1A898D00E30653 /* ContentView.swift */; };
 		EAE8EB2F2C1A898D00E30653 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB2E2C1A898D00E30653 /* Item.swift */; };
@@ -15,6 +71,27 @@
 		EAE8EB3E2C1A899100E30653 /* AldoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB3D2C1A899100E30653 /* AldoTests.swift */; };
 		EAE8EB482C1A899100E30653 /* AldoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB472C1A899100E30653 /* AldoUITests.swift */; };
 		EAE8EB4A2C1A899100E30653 /* AldoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB492C1A899100E30653 /* AldoUITestsLaunchTests.swift */; };
+		EAE8EB5D2C1A89EA00E30653 /* Aldo_Watch_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB5C2C1A89EA00E30653 /* Aldo_Watch_AppApp.swift */; };
+		EAE8EB5F2C1A89EA00E30653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB5E2C1A89EA00E30653 /* ContentView.swift */; };
+		EAE8EB612C1A89ED00E30653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8EB602C1A89ED00E30653 /* Assets.xcassets */; };
+		EAE8EB642C1A89ED00E30653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE8EB632C1A89ED00E30653 /* Preview Assets.xcassets */; };
+		EAE8EB6E2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB6D2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppTests.swift */; };
+		EAE8EB782C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB772C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITests.swift */; };
+		EAE8EB7A2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB792C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift */; };
+		EAE8EB7D2C1A89EE00E30653 /* Aldo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EAE8EB5A2C1A89EA00E30653 /* Aldo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EAE8EB8A2C1A8D2100E30653 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB892C1A8D2100E30653 /* WelcomeView.swift */; };
+		EAE8EB8C2C1A8D5D00E30653 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB8B2C1A8D5D00E30653 /* LoginView.swift */; };
+		EAE8EB8E2C1A8D7F00E30653 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB8D2C1A8D7F00E30653 /* SignUpView.swift */; };
+		EAE8EB902C1A8D9800E30653 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB8F2C1A8D9800E30653 /* AuthenticationManager.swift */; };
+		EAE8EB922C1A8E1D00E30653 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB912C1A8E1D00E30653 /* MainView.swift */; };
+		EAE8EB942C1A931D00E30653 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB932C1A931D00E30653 /* UserModel.swift */; };
+		EAE8EB962C1A933B00E30653 /* FriendRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB952C1A933B00E30653 /* FriendRequestView.swift */; };
+		EAE8EB982C1A93AB00E30653 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB972C1A93AB00E30653 /* ActivityView.swift */; };
+		EAE8EB9A2C1A947800E30653 /* LogScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB992C1A947800E30653 /* LogScoreView.swift */; };
+		EAE8EB9C2C1A94EC00E30653 /* ScoreEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB9B2C1A94EC00E30653 /* ScoreEntryView.swift */; };
+		EAE8EB9E2C1A951800E30653 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB9D2C1A951800E30653 /* SettingsView.swift */; };
+		EAE8EBA02C1A976E00E30653 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE8EB9F2C1A976E00E30653 /* ImagePicker.swift */; };
+		EAE8EBA42C1A995E00E30653 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE8EBA32C1A995E00E30653 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +109,68 @@
 			remoteGlobalIDString = EAE8EB262C1A898D00E30653;
 			remoteInfo = Aldo;
 		};
+		EAE8EB6A2C1A89EE00E30653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE8EB1F2C1A898D00E30653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE8EB592C1A89EA00E30653;
+			remoteInfo = "Aldo Watch App Watch App";
+		};
+		EAE8EB742C1A89EE00E30653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE8EB1F2C1A898D00E30653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE8EB592C1A89EA00E30653;
+			remoteInfo = "Aldo Watch App Watch App";
+		};
+		EAE8EB7B2C1A89EE00E30653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE8EB1F2C1A898D00E30653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE8EB592C1A89EA00E30653;
+			remoteInfo = "Aldo Watch App Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EAE8EB812C1A89EE00E30653 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EAE8EB7D2C1A89EE00E30653 /* Aldo.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9CB92DB52D46C34F00AE6B05 /* CourseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSearchView.swift; sourceTree = "<group>"; };
+		9CB92DB72D46C54E00AE6B05 /* GolfCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourse.swift; sourceTree = "<group>"; };
+		9CB92DBB2D47365B00AE6B05 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		9CB92DC12D47367E00AE6B05 /* SearchLeaguesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLeaguesView.swift; sourceTree = "<group>"; };
+		9CB92DC32D47368B00AE6B05 /* LeagueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueService.swift; sourceTree = "<group>"; };
+		9CB92DC52D47369D00AE6B05 /* ScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreService.swift; sourceTree = "<group>"; };
+		9CB92DC72D4736AE00AE6B05 /* LeagueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueDetailView.swift; sourceTree = "<group>"; };
+		9CB92DC92D4739CD00AE6B05 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		9CB92DCB2D473F8400AE6B05 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		9CB92DCD2D473F9500AE6B05 /* CreateLeagueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLeagueView.swift; sourceTree = "<group>"; };
+		EA0D9BDE2C23CB0B0045669C /* Aldo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aldo.entitlements; sourceTree = "<group>"; };
+		EA0D9BE12C23CFCF0045669C /* ActivityAndTransportPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAndTransportPromptView.swift; sourceTree = "<group>"; };
+		EA0D9BE32C23D0470045669C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0D9BEB2C23D2A70045669C /* Aldo_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Aldo_WatchApp.swift; path = ../Aldo/Aldo_WatchApp.swift; sourceTree = "<group>"; };
+		EA0D9BF02C23D37C0045669C /* WatchWorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WatchWorkoutManager.swift; path = ../Aldo/WatchWorkoutManager.swift; sourceTree = "<group>"; };
+		EA0D9BF32C23D3B30045669C /* iOSWorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSWorkoutManager.swift; sourceTree = "<group>"; };
+		EA0D9C042C27D4E70045669C /* HealthKitIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitIntegration.swift; sourceTree = "<group>"; };
+		EA4B94A52C27DB1300899DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4B94A72C27E93900899DF1 /* IndividualHoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IndividualHoleView.swift; path = ../IndividualHoleView.swift; sourceTree = "<group>"; };
+		EA4B94A92C28716300899DF1 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		EA8878B82C2A202E0033C943 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		EA8878BC2C2A23630033C943 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		EA8878BE2C2B3C8F0033C943 /* WorkoutStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStats.swift; sourceTree = "<group>"; };
+		EAE40D5A2C29AC6800B6DD64 /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
 		EAE8EB272C1A898D00E30653 /* Aldo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aldo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoApp.swift; sourceTree = "<group>"; };
 		EAE8EB2C2C1A898D00E30653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +182,29 @@
 		EAE8EB432C1A899100E30653 /* AldoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AldoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE8EB472C1A899100E30653 /* AldoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoUITests.swift; sourceTree = "<group>"; };
 		EAE8EB492C1A899100E30653 /* AldoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAE8EB5A2C1A89EA00E30653 /* Aldo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aldo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB5C2C1A89EA00E30653 /* Aldo_Watch_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aldo_Watch_AppApp.swift; sourceTree = "<group>"; };
+		EAE8EB5E2C1A89EA00E30653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAE8EB602C1A89ED00E30653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE8EB632C1A89ED00E30653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAE8EB692C1A89EE00E30653 /* Aldo Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aldo Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB6D2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aldo_Watch_App_Watch_AppTests.swift; sourceTree = "<group>"; };
+		EAE8EB732C1A89EE00E30653 /* Aldo Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aldo Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE8EB772C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aldo_Watch_App_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		EAE8EB792C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAE8EB892C1A8D2100E30653 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EAE8EB8B2C1A8D5D00E30653 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EAE8EB8D2C1A8D7F00E30653 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EAE8EB8F2C1A8D9800E30653 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		EAE8EB912C1A8E1D00E30653 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EAE8EB932C1A931D00E30653 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EAE8EB952C1A933B00E30653 /* FriendRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestView.swift; sourceTree = "<group>"; };
+		EAE8EB972C1A93AB00E30653 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		EAE8EB992C1A947800E30653 /* LogScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogScoreView.swift; sourceTree = "<group>"; };
+		EAE8EB9B2C1A94EC00E30653 /* ScoreEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreEntryView.swift; sourceTree = "<group>"; };
+		EAE8EB9D2C1A951800E30653 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EAE8EB9F2C1A976E00E30653 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EAE8EBA32C1A995E00E30653 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +212,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0D9BAB2C1AAACD0045669C /* FirebaseDatabase in Frameworks */,
+				EA0D9BB92C1AAACD0045669C /* FirebaseFunctionsCombine-Community in Frameworks */,
+				EA0D9BB12C1AAACD0045669C /* FirebaseFirestore in Frameworks */,
+				EA0D9B9C2C1AA9500045669C /* FirebaseAnalyticsSwift in Frameworks */,
+				EA0D9B982C1AA9500045669C /* FirebaseAnalytics in Frameworks */,
+				EA0D9B9A2C1AA9500045669C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				EA0D9BD52C23C8930045669C /* FacebookAEM in Frameworks */,
+				EA0D9BB52C1AAACD0045669C /* FirebaseFirestoreSwift in Frameworks */,
+				EA0D9BC32C1AAACD0045669C /* FirebaseMLModelDownloader in Frameworks */,
+				EA0D9BD72C23C8930045669C /* FacebookBasics in Frameworks */,
+				EA0D9BA02C1AA9500045669C /* FirebaseAppCheck in Frameworks */,
+				EA0D9B9E2C1AA9500045669C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				EA0D9BC12C1AAACD0045669C /* FirebaseMessaging in Frameworks */,
+				EA0D9BA52C1AAACD0045669C /* FirebaseAuth in Frameworks */,
+				EA0D9BC92C1AAACD0045669C /* FirebaseRemoteConfigSwift in Frameworks */,
+				EA0D9BD92C23C8930045669C /* FacebookCore in Frameworks */,
+				EA0D9BA92C1AAACD0045669C /* FirebaseCrashlytics in Frameworks */,
+				EA0D9BDD2C23C8930045669C /* FacebookLogin in Frameworks */,
+				EA0D9BBB2C1AAACD0045669C /* FirebaseInAppMessaging-Beta in Frameworks */,
+				EA0D9BAD2C1AAACD0045669C /* FirebaseDatabaseSwift in Frameworks */,
+				EA0D9BCD2C1AAACD0045669C /* FirebaseStorageCombine-Community in Frameworks */,
+				EA0D9BC72C1AAACD0045669C /* FirebaseRemoteConfig in Frameworks */,
+				EA0D9BB72C1AAACD0045669C /* FirebaseFunctions in Frameworks */,
+				EA0D9BA32C1AAACD0045669C /* FirebaseAppDistribution-Beta in Frameworks */,
+				EA0D9BC52C1AAACD0045669C /* FirebasePerformance in Frameworks */,
+				EA0D9BA72C1AAACD0045669C /* FirebaseAuthCombine-Community in Frameworks */,
+				EA0D9BCB2C1AAACD0045669C /* FirebaseStorage in Frameworks */,
+				EA0D9BBD2C1AAACD0045669C /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				EA0D9BCF2C1AAACD0045669C /* FirebaseVertexAI-Preview in Frameworks */,
+				EA0D9BD22C1AADFF0045669C /* SDWebImageSwiftUI in Frameworks */,
+				EA0D9BAF2C1AAACD0045669C /* FirebaseDynamicLinks in Frameworks */,
+				EA0D9BB32C1AAACD0045669C /* FirebaseFirestoreCombine-Community in Frameworks */,
+				EA0D9BBF2C1AAACD0045669C /* FirebaseInstallations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,16 +262,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAE8EB572C1A89EA00E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB662C1A89EE00E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB702C1A89EE00E30653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA0D9BA12C1AAACD0045669C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EAE8EB1E2C1A898D00E30653 = {
 			isa = PBXGroup;
 			children = (
 				EAE8EB292C1A898D00E30653 /* Aldo */,
 				EAE8EB3C2C1A899100E30653 /* AldoTests */,
 				EAE8EB462C1A899100E30653 /* AldoUITests */,
+				EAE8EB5B2C1A89EA00E30653 /* Aldo Watch App Watch App */,
+				EAE8EB6C2C1A89EE00E30653 /* Aldo Watch App Watch AppTests */,
+				EAE8EB762C1A89EE00E30653 /* Aldo Watch App Watch AppUITests */,
 				EAE8EB282C1A898D00E30653 /* Products */,
+				EA0D9BA12C1AAACD0045669C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +313,9 @@
 				EAE8EB272C1A898D00E30653 /* Aldo.app */,
 				EAE8EB392C1A899100E30653 /* AldoTests.xctest */,
 				EAE8EB432C1A899100E30653 /* AldoUITests.xctest */,
+				EAE8EB5A2C1A89EA00E30653 /* Aldo.app */,
+				EAE8EB692C1A89EE00E30653 /* Aldo Watch AppTests.xctest */,
+				EAE8EB732C1A89EE00E30653 /* Aldo Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,11 +323,22 @@
 		EAE8EB292C1A898D00E30653 /* Aldo */ = {
 			isa = PBXGroup;
 			children = (
+				EA0D9BDE2C23CB0B0045669C /* Aldo.entitlements */,
 				EAE8EB2A2C1A898D00E30653 /* AldoApp.swift */,
-				EAE8EB2C2C1A898D00E30653 /* ContentView.swift */,
+				EA0D9BE32C23D0470045669C /* AppDelegate.swift */,
+				EAE8EB8F2C1A8D9800E30653 /* AuthenticationManager.swift */,
+				EAE8EB932C1A931D00E30653 /* UserModel.swift */,
+				EAE8EBA32C1A995E00E30653 /* GoogleService-Info.plist */,
+				EAE8EB882C1A8C3600E30653 /* Views */,
 				EAE8EB2E2C1A898D00E30653 /* Item.swift */,
+				EA0D9BF32C23D3B30045669C /* iOSWorkoutManager.swift */,
 				EAE8EB302C1A899000E30653 /* Assets.xcassets */,
 				EAE8EB322C1A899000E30653 /* Preview Content */,
+				EA0D9C042C27D4E70045669C /* HealthKitIntegration.swift */,
+				EA4B94A52C27DB1300899DF1 /* Info.plist */,
+				EA8878B82C2A202E0033C943 /* Friend.swift */,
+				EA8878BC2C2A23630033C943 /* AppUser.swift */,
+				EA8878BE2C2B3C8F0033C943 /* WorkoutStats.swift */,
 			);
 			path = Aldo;
 			sourceTree = "<group>";
@@ -130,6 +368,76 @@
 			path = AldoUITests;
 			sourceTree = "<group>";
 		};
+		EAE8EB5B2C1A89EA00E30653 /* Aldo Watch App Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB5C2C1A89EA00E30653 /* Aldo_Watch_AppApp.swift */,
+				EA0D9BEB2C23D2A70045669C /* Aldo_WatchApp.swift */,
+				EA0D9BF02C23D37C0045669C /* WatchWorkoutManager.swift */,
+				EAE8EB5E2C1A89EA00E30653 /* ContentView.swift */,
+				EA4B94A92C28716300899DF1 /* WorkoutView.swift */,
+				EAE8EB602C1A89ED00E30653 /* Assets.xcassets */,
+				EAE8EB622C1A89ED00E30653 /* Preview Content */,
+			);
+			path = "Aldo Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		EAE8EB622C1A89ED00E30653 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB632C1A89ED00E30653 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAE8EB6C2C1A89EE00E30653 /* Aldo Watch App Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB6D2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppTests.swift */,
+			);
+			path = "Aldo Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		EAE8EB762C1A89EE00E30653 /* Aldo Watch App Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE8EB772C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITests.swift */,
+				EAE8EB792C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Aldo Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		EAE8EB882C1A8C3600E30653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CB92DCB2D473F8400AE6B05 /* UserService.swift */,
+				9CB92DC92D4739CD00AE6B05 /* Score.swift */,
+				9CB92DC72D4736AE00AE6B05 /* LeagueDetailView.swift */,
+				9CB92DC52D47369D00AE6B05 /* ScoreService.swift */,
+				9CB92DC32D47368B00AE6B05 /* LeagueService.swift */,
+				9CB92DC12D47367E00AE6B05 /* SearchLeaguesView.swift */,
+				9CB92DCD2D473F9500AE6B05 /* CreateLeagueView.swift */,
+				9CB92DBB2D47365B00AE6B05 /* League.swift */,
+				9CB92DB72D46C54E00AE6B05 /* GolfCourse.swift */,
+				9CB92DB52D46C34F00AE6B05 /* CourseSearchView.swift */,
+				EAE8EB892C1A8D2100E30653 /* WelcomeView.swift */,
+				EAE8EB8B2C1A8D5D00E30653 /* LoginView.swift */,
+				EAE8EB8D2C1A8D7F00E30653 /* SignUpView.swift */,
+				EAE8EB9F2C1A976E00E30653 /* ImagePicker.swift */,
+				EAE8EB2C2C1A898D00E30653 /* ContentView.swift */,
+				EAE8EB912C1A8E1D00E30653 /* MainView.swift */,
+				EAE8EB9B2C1A94EC00E30653 /* ScoreEntryView.swift */,
+				EAE8EB9D2C1A951800E30653 /* SettingsView.swift */,
+				EAE8EB992C1A947800E30653 /* LogScoreView.swift */,
+				EAE8EB972C1A93AB00E30653 /* ActivityView.swift */,
+				EA4B94A72C27E93900899DF1 /* IndividualHoleView.swift */,
+				EAE8EB952C1A933B00E30653 /* FriendRequestView.swift */,
+				EA0D9BE12C23CFCF0045669C /* ActivityAndTransportPromptView.swift */,
+				EAE40D5A2C29AC6800B6DD64 /* FriendsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,12 +448,49 @@
 				EAE8EB232C1A898D00E30653 /* Sources */,
 				EAE8EB242C1A898D00E30653 /* Frameworks */,
 				EAE8EB252C1A898D00E30653 /* Resources */,
+				EAE8EB812C1A89EE00E30653 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EAE8EB7C2C1A89EE00E30653 /* PBXTargetDependency */,
 			);
 			name = Aldo;
+			packageProductDependencies = (
+				EA0D9B972C1AA9500045669C /* FirebaseAnalytics */,
+				EA0D9B992C1AA9500045669C /* FirebaseAnalyticsOnDeviceConversion */,
+				EA0D9B9B2C1AA9500045669C /* FirebaseAnalyticsSwift */,
+				EA0D9B9D2C1AA9500045669C /* FirebaseAnalyticsWithoutAdIdSupport */,
+				EA0D9B9F2C1AA9500045669C /* FirebaseAppCheck */,
+				EA0D9BA22C1AAACD0045669C /* FirebaseAppDistribution-Beta */,
+				EA0D9BA42C1AAACD0045669C /* FirebaseAuth */,
+				EA0D9BA62C1AAACD0045669C /* FirebaseAuthCombine-Community */,
+				EA0D9BA82C1AAACD0045669C /* FirebaseCrashlytics */,
+				EA0D9BAA2C1AAACD0045669C /* FirebaseDatabase */,
+				EA0D9BAC2C1AAACD0045669C /* FirebaseDatabaseSwift */,
+				EA0D9BAE2C1AAACD0045669C /* FirebaseDynamicLinks */,
+				EA0D9BB02C1AAACD0045669C /* FirebaseFirestore */,
+				EA0D9BB22C1AAACD0045669C /* FirebaseFirestoreCombine-Community */,
+				EA0D9BB42C1AAACD0045669C /* FirebaseFirestoreSwift */,
+				EA0D9BB62C1AAACD0045669C /* FirebaseFunctions */,
+				EA0D9BB82C1AAACD0045669C /* FirebaseFunctionsCombine-Community */,
+				EA0D9BBA2C1AAACD0045669C /* FirebaseInAppMessaging-Beta */,
+				EA0D9BBC2C1AAACD0045669C /* FirebaseInAppMessagingSwift-Beta */,
+				EA0D9BBE2C1AAACD0045669C /* FirebaseInstallations */,
+				EA0D9BC02C1AAACD0045669C /* FirebaseMessaging */,
+				EA0D9BC22C1AAACD0045669C /* FirebaseMLModelDownloader */,
+				EA0D9BC42C1AAACD0045669C /* FirebasePerformance */,
+				EA0D9BC62C1AAACD0045669C /* FirebaseRemoteConfig */,
+				EA0D9BC82C1AAACD0045669C /* FirebaseRemoteConfigSwift */,
+				EA0D9BCA2C1AAACD0045669C /* FirebaseStorage */,
+				EA0D9BCC2C1AAACD0045669C /* FirebaseStorageCombine-Community */,
+				EA0D9BCE2C1AAACD0045669C /* FirebaseVertexAI-Preview */,
+				EA0D9BD12C1AADFF0045669C /* SDWebImageSwiftUI */,
+				EA0D9BD42C23C8930045669C /* FacebookAEM */,
+				EA0D9BD62C23C8930045669C /* FacebookBasics */,
+				EA0D9BD82C23C8930045669C /* FacebookCore */,
+				EA0D9BDC2C23C8930045669C /* FacebookLogin */,
+			);
 			productName = Aldo;
 			productReference = EAE8EB272C1A898D00E30653 /* Aldo.app */;
 			productType = "com.apple.product-type.application";
@@ -186,6 +531,59 @@
 			productReference = EAE8EB432C1A899100E30653 /* AldoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EAE8EB592C1A89EA00E30653 /* Aldo Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB7E2C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch App" */;
+			buildPhases = (
+				EAE8EB562C1A89EA00E30653 /* Sources */,
+				EAE8EB572C1A89EA00E30653 /* Frameworks */,
+				EAE8EB582C1A89EA00E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aldo Watch App";
+			productName = "Aldo Watch App Watch App";
+			productReference = EAE8EB5A2C1A89EA00E30653 /* Aldo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE8EB682C1A89EE00E30653 /* Aldo Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB822C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch AppTests" */;
+			buildPhases = (
+				EAE8EB652C1A89EE00E30653 /* Sources */,
+				EAE8EB662C1A89EE00E30653 /* Frameworks */,
+				EAE8EB672C1A89EE00E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE8EB6B2C1A89EE00E30653 /* PBXTargetDependency */,
+			);
+			name = "Aldo Watch AppTests";
+			productName = "Aldo Watch App Watch AppTests";
+			productReference = EAE8EB692C1A89EE00E30653 /* Aldo Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE8EB722C1A89EE00E30653 /* Aldo Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE8EB852C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch AppUITests" */;
+			buildPhases = (
+				EAE8EB6F2C1A89EE00E30653 /* Sources */,
+				EAE8EB702C1A89EE00E30653 /* Frameworks */,
+				EAE8EB712C1A89EE00E30653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE8EB752C1A89EE00E30653 /* PBXTargetDependency */,
+			);
+			name = "Aldo Watch AppUITests";
+			productName = "Aldo Watch App Watch AppUITests";
+			productReference = EAE8EB732C1A89EE00E30653 /* Aldo Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +605,17 @@
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = EAE8EB262C1A898D00E30653;
 					};
+					EAE8EB592C1A89EA00E30653 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EAE8EB682C1A89EE00E30653 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAE8EB592C1A89EA00E30653;
+					};
+					EAE8EB722C1A89EE00E30653 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EAE8EB592C1A89EA00E30653;
+					};
 				};
 			};
 			buildConfigurationList = EAE8EB222C1A898D00E30653 /* Build configuration list for PBXProject "Aldo" */;
@@ -218,6 +627,11 @@
 				Base,
 			);
 			mainGroup = EAE8EB1E2C1A898D00E30653;
+			packageReferences = (
+				EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EA0D9BD02C1AADFF0045669C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = EAE8EB282C1A898D00E30653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +639,9 @@
 				EAE8EB262C1A898D00E30653 /* Aldo */,
 				EAE8EB382C1A899100E30653 /* AldoTests */,
 				EAE8EB422C1A899100E30653 /* AldoUITests */,
+				EAE8EB592C1A89EA00E30653 /* Aldo Watch App */,
+				EAE8EB682C1A89EE00E30653 /* Aldo Watch AppTests */,
+				EAE8EB722C1A89EE00E30653 /* Aldo Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +653,7 @@
 			files = (
 				EAE8EB342C1A899000E30653 /* Preview Assets.xcassets in Resources */,
 				EAE8EB312C1A899000E30653 /* Assets.xcassets in Resources */,
+				EAE8EBA42C1A995E00E30653 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +671,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAE8EB582C1A89EA00E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB642C1A89ED00E30653 /* Preview Assets.xcassets in Resources */,
+				EAE8EB612C1A89ED00E30653 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB672C1A89EE00E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB712C1A89EE00E30653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,9 +701,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE8EB982C1A93AB00E30653 /* ActivityView.swift in Sources */,
+				9CB92DBC2D47365C00AE6B05 /* League.swift in Sources */,
 				EAE8EB2D2C1A898D00E30653 /* ContentView.swift in Sources */,
+				EAE8EB922C1A8E1D00E30653 /* MainView.swift in Sources */,
+				9CB92DB62D46C35C00AE6B05 /* CourseSearchView.swift in Sources */,
+				EA0D9BF42C23D3B30045669C /* iOSWorkoutManager.swift in Sources */,
+				9CB92DCC2D473F8400AE6B05 /* UserService.swift in Sources */,
 				EAE8EB2F2C1A898D00E30653 /* Item.swift in Sources */,
+				EAE8EB902C1A8D9800E30653 /* AuthenticationManager.swift in Sources */,
+				EA8878BD2C2A23630033C943 /* AppUser.swift in Sources */,
+				EA8878BF2C2B3C8F0033C943 /* WorkoutStats.swift in Sources */,
 				EAE8EB2B2C1A898D00E30653 /* AldoApp.swift in Sources */,
+				9CB92DC42D47368B00AE6B05 /* LeagueService.swift in Sources */,
+				9CB92DC82D4736AE00AE6B05 /* LeagueDetailView.swift in Sources */,
+				EAE8EB8C2C1A8D5D00E30653 /* LoginView.swift in Sources */,
+				EAE8EB9E2C1A951800E30653 /* SettingsView.swift in Sources */,
+				EAE8EB962C1A933B00E30653 /* FriendRequestView.swift in Sources */,
+				9CB92DC22D47367E00AE6B05 /* SearchLeaguesView.swift in Sources */,
+				EAE8EB8E2C1A8D7F00E30653 /* SignUpView.swift in Sources */,
+				EA4B94A82C27E93A00899DF1 /* IndividualHoleView.swift in Sources */,
+				EAE8EB942C1A931D00E30653 /* UserModel.swift in Sources */,
+				EAE8EB9C2C1A94EC00E30653 /* ScoreEntryView.swift in Sources */,
+				EAE8EBA02C1A976E00E30653 /* ImagePicker.swift in Sources */,
+				EA0D9BE22C23CFCF0045669C /* ActivityAndTransportPromptView.swift in Sources */,
+				EAE8EB9A2C1A947800E30653 /* LogScoreView.swift in Sources */,
+				EAE40D5B2C29AC6800B6DD64 /* FriendsListView.swift in Sources */,
+				9CB92DC62D47369D00AE6B05 /* ScoreService.swift in Sources */,
+				EA0D9BE42C23D0470045669C /* AppDelegate.swift in Sources */,
+				EA0D9C052C27D4E70045669C /* HealthKitIntegration.swift in Sources */,
+				EAE8EB8A2C1A8D2100E30653 /* WelcomeView.swift in Sources */,
+				9CB92DB82D46C56000AE6B05 /* GolfCourse.swift in Sources */,
+				9CB92DCA2D4739CD00AE6B05 /* Score.swift in Sources */,
+				EA8878B92C2A202E0033C943 /* Friend.swift in Sources */,
+				9CB92DCE2D473F9500AE6B05 /* CreateLeagueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +755,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAE8EB562C1A89EA00E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0D9C062C27D4E70045669C /* HealthKitIntegration.swift in Sources */,
+				EA0D9BF22C23D37C0045669C /* WatchWorkoutManager.swift in Sources */,
+				EA0D9BF62C23D59C0045669C /* Aldo_WatchApp.swift in Sources */,
+				EAE8EB5F2C1A89EA00E30653 /* ContentView.swift in Sources */,
+				EA4B94AA2C28716300899DF1 /* WorkoutView.swift in Sources */,
+				EAE8EB5D2C1A89EA00E30653 /* Aldo_Watch_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB652C1A89EE00E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB6E2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE8EB6F2C1A89EE00E30653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE8EB7A2C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITestsLaunchTests.swift in Sources */,
+				EAE8EB782C1A89EE00E30653 /* Aldo_Watch_App_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +797,21 @@
 			isa = PBXTargetDependency;
 			target = EAE8EB262C1A898D00E30653 /* Aldo */;
 			targetProxy = EAE8EB442C1A899100E30653 /* PBXContainerItemProxy */;
+		};
+		EAE8EB6B2C1A89EE00E30653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE8EB592C1A89EA00E30653 /* Aldo Watch App */;
+			targetProxy = EAE8EB6A2C1A89EE00E30653 /* PBXContainerItemProxy */;
+		};
+		EAE8EB752C1A89EE00E30653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE8EB592C1A89EA00E30653 /* Aldo Watch App */;
+			targetProxy = EAE8EB742C1A89EE00E30653 /* PBXContainerItemProxy */;
+		};
+		EAE8EB7C2C1A89EE00E30653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE8EB592C1A89EA00E30653 /* Aldo Watch App */;
+			targetProxy = EAE8EB7B2C1A89EE00E30653 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,19 +938,29 @@
 		EAE8EB4E2C1A899100E30653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aldo/Aldo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aldo/Preview Content\"";
 				DEVELOPMENT_TEAM = A2F9MS5L95;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Aldo/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app wants to record your data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app wants to read your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,19 +977,29 @@
 		EAE8EB4F2C1A899100E30653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aldo/Aldo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aldo/Preview Content\"";
 				DEVELOPMENT_TEAM = A2F9MS5L95;
+				DONT_GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Aldo/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app wants to record your data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app wants to read your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +1089,150 @@
 			};
 			name = Release;
 		};
+		EAE8EB7F2C1A89EE00E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldo Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Aldo.Aldo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.Aldo.watchkitapp;
+				PRODUCT_NAME = Aldo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		EAE8EB802C1A89EE00E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldo Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Aldo.Aldo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aldo.Aldo.watchkitapp;
+				PRODUCT_NAME = Aldo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		EAE8EB832C1A89EE00E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aldo.Aldo-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldo Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		EAE8EB842C1A89EE00E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aldo.Aldo-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldo Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		EAE8EB862C1A89EE00E30653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aldo.Aldo-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Aldo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		EAE8EB872C1A89EE00E30653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2F9MS5L95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aldo.Aldo-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Aldo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,7 +1272,229 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		EAE8EB7E2C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB7F2C1A89EE00E30653 /* Debug */,
+				EAE8EB802C1A89EE00E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE8EB822C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB832C1A89EE00E30653 /* Debug */,
+				EAE8EB842C1A89EE00E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE8EB852C1A89EE00E30653 /* Build configuration list for PBXNativeTarget "Aldo Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE8EB862C1A89EE00E30653 /* Debug */,
+				EAE8EB872C1A89EE00E30653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA0D9BD02C1AADFF0045669C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA0D9B972C1AA9500045669C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EA0D9B992C1AA9500045669C /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		EA0D9B9B2C1AA9500045669C /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		EA0D9B9D2C1AA9500045669C /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		EA0D9B9F2C1AA9500045669C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		EA0D9BA22C1AAACD0045669C /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		EA0D9BA42C1AAACD0045669C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EA0D9BA62C1AAACD0045669C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		EA0D9BA82C1AAACD0045669C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		EA0D9BAA2C1AAACD0045669C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		EA0D9BAC2C1AAACD0045669C /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		EA0D9BAE2C1AAACD0045669C /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		EA0D9BB02C1AAACD0045669C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EA0D9BB22C1AAACD0045669C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		EA0D9BB42C1AAACD0045669C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		EA0D9BB62C1AAACD0045669C /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		EA0D9BB82C1AAACD0045669C /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		EA0D9BBA2C1AAACD0045669C /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		EA0D9BBC2C1AAACD0045669C /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		EA0D9BBE2C1AAACD0045669C /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		EA0D9BC02C1AAACD0045669C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		EA0D9BC22C1AAACD0045669C /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		EA0D9BC42C1AAACD0045669C /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		EA0D9BC62C1AAACD0045669C /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		EA0D9BC82C1AAACD0045669C /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		EA0D9BCA2C1AAACD0045669C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EA0D9BCC2C1AAACD0045669C /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		EA0D9BCE2C1AAACD0045669C /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE8EBA52C1A99ED00E30653 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+		EA0D9BD12C1AADFF0045669C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0D9BD02C1AADFF0045669C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		EA0D9BD42C23C8930045669C /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		EA0D9BD62C23C8930045669C /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		EA0D9BD82C23C8930045669C /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		EA0D9BDC2C23C8930045669C /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA0D9BD32C23C8920045669C /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EAE8EB1F2C1A898D00E30653 /* Project object */;
 }
